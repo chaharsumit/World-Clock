@@ -1,0 +1,116 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+  v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.5;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(34 34 34);
+}
+.container{
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+h1{
+  font-size: 4rem;
+  color: white;
+  text-align: center;
+  margin-top: 2rem;
+}
+.btn{
+  background-color: rgb(32 43 51);
+  padding: 0.7rem 2rem;
+  border: none;
+  border-radius: 0.2rem;
+  font-size: 1.2rem;
+  color: white;
+  margin: 0 0.5rem;
+  height: fit-content;
+}
+.btn:hover{
+  background-color: rgb(65, 132, 158);
+}
+.body-container{
+  margin-top: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  column-gap: 2rem;
+}
+h2{
+  font-size: 3rem;
+  color: white;
+  font-weight: 900px;
+}
+span{
+  font-size: 3rem;
+  color: white;
+  font-weight: 900;
+}
+.watch{
+  position: relative;
+  border: 2px solid white;
+  box-shadow: 0 0 0.5rem darkblue;
+  border-radius: 0.2rem;
+  padding: 2rem 3rem;
+  text-align: center;
+  background-color: rgb(22 27 31);
+}
+.btn-watch{
+  background-color: rgb(32 43 51);
+  color: white;
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  border: none;
+  margin-top: 1rem;
+}
+.cross{
+  position: absolute;
+  right: -15px;
+  top: -12.5%;
+}
