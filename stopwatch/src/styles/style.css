@@ -90,7 +90,7 @@ h2{
   color: white;
   font-weight: 900px;
 }
-span{
+.time{
   font-size: 3rem;
   color: white;
   font-weight: 900;
@@ -104,6 +104,7 @@ span{
   padding: 2rem 3rem;
   text-align: center;
   background-color: rgb(22 27 31);
+  height: fit-content;
 }
 .btn-watch{
   background-color: rgb(32 43 51);
@@ -117,4 +118,18 @@ span{
   position: absolute;
   right: -15px;
   top: -12.5%;
+  font-size: 3rem;
+  color: white;
+}
+.arrow-container{
+  display: flex;
+  justify-content: center;
+  column-gap: 3rem;
+}
+.arrow{
+  font-size: 2rem;
+  color: white;
+  padding: 0.5rem;
+  background-color: rgb(32 43 51);
+  border-radius: 0.2rem;
 }

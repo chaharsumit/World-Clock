@@ -77,10 +77,10 @@ class Stopwatch extends React.Component{
             <div className='watch'>
               <h2>StopWatch</h2>
               <div className='time-container'>
-                <span>{hDisplay < 10 ? '0' + hDisplay : '00'} :</span>
-                <span> {mDisplay < 10 ? '0' + mDisplay : mDisplay} :</span>
-                <span> {sDisplay < 10 ? '0' + sDisplay : sDisplay} :</span>
-                <span> {millis < 10 ? '0' + millis : millis}</span>
+                <span className='time'>{hDisplay < 10 ? '0' + hDisplay : '00'} :</span>
+                <span className='time'> {mDisplay < 10 ? '0' + mDisplay : mDisplay} :</span>
+                <span className='time'> {sDisplay < 10 ? '0' + sDisplay : sDisplay} :</span>
+                <span className='time'> {millis < 10 ? '0' + millis : millis}</span>
               </div>
               {
                 !this.state.timerStart ? <> <button onClick={this.startTimer} className='btn-watch'>Start</button> <button onClick={this.resetTimer} className='btn-watch'>Reset</button></>  : <button onClick={this.stopTimer} className='btn-watch'>Stop</button>
