@@ -153,19 +153,3 @@ class Countdown extends React.Component{
 }
 
 export default Countdown;
-/*
-
-!this.state.countdownStart
-                ?
-                <button className='btn-watch' onClick={this.startCountdown}>Start</button>
-                :
-                !this.state.isPaused && this.state.countdownStart
-                ?
-                <button className='btn-watch' onClick={this.stopCountdown}>Stop</button>
-                :
-                <>
-                  <button className='btn-watch' onClick={this.resumeCountdown}>Resume</button>
-                  <button className='btn-watch' onClick={this.resetCountdown}>Reset</button>
-                </>
-
-                */
